@@ -1,8 +1,18 @@
 import React from 'react'
+import restaurantBg from "../assets/images/restaurant-bg.png"
 
 const Restaurant = () => {
     return (
-        <div>Restaurant</div>
+        <section>
+            <div
+                className="bg-contain bg-center bg-repeat h-screen flex items-center justify-center flex-col gap-4"
+                style={{ backgroundImage: `url(${restaurantBg})` }}
+            >
+                <h1 className="font-display text-5xl font-extrabold">WELCOME TO BASCA</h1>
+                <h2 className="font-heading text-3xl font-bold">WHERE FLAVOUR MEETS ELEGANCE</h2>
+                <button className="bg-primary text-black font-display px-8 py-3 font-semibold rounded-xl">RESERVE NOW</button>
+            </div>
+        </section>
     )
 }
 

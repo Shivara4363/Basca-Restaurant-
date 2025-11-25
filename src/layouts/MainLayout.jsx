@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom';
 const MainLayout = () => {
     return (
         <>
-            <header>
+            <header className=''>
                 <Navbar />
             </header>
             <main>

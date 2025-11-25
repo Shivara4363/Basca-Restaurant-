@@ -3,9 +3,34 @@
 #root {
   /* max-width: 1280px; */
   overflow-x: hidden;
+  color: #FFF;
 }
 
-nav {
-  position: relative;
-  z-index: 10;
+@theme {
+  --color-primary: #856045;
+  --color-secondary: #000000;
+
+  --font-display: "Cinzel", serif;
+  --font-heading: "Cinzel Decorative", serif;
+  --font-paragraph: "Nunito", sans-serif;
+  --font-subheading: "Montserrat", sans-serif;
+}
+
+/* Hamburger Menu - toggle css */
+.hamburger .icon1,
+.hamburger .icon2,
+.hamburger .icon3 {
+  transition: 0.3s;
+}
+
+.change .icon1 {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.change .icon2 {
+  opacity: 0;
+}
+
+.change .icon3 {
+  transform: translateY(-8px) rotate(-45deg);
 }
