@@ -1,6 +1,8 @@
 import React from 'react'
 import heroBg from "../assets/images/landing-bg.png"
 import OurStory from '../components/home/OurStory';
+import HomeEvent from '../components/home/HomeEvent';
+import InsideCard from '../components/home/InsideCard';
 
 const Home = () => {
     return (
@@ -13,8 +15,10 @@ const Home = () => {
                 <h2 className="font-heading text-3xl font-bold">WHERE PASSION SHAPES EVERY PLATE</h2>
                 <button className="bg-primary text-black font-display px-8 py-3 font-semibold rounded-xl">RESERVE NOW</button>
             </div>
-            <div className="bg-secondary px-10">
+            <div className="bg-secondary px-14">
                 <OurStory />
+                <HomeEvent />
+                <InsideCard />
             </div>
         </section>
     );
