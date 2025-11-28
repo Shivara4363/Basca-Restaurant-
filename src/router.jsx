@@ -7,6 +7,7 @@ import MainLayout from "./layouts/MainLayout";
 import Cocktail from "./pages/Cocktail";
 import Blogs from "./pages/Blogs";
 import Contact from "./pages/Contact";
+import Menu from "./pages/Menu";
 
 const router = createBrowserRouter([
     {
@@ -14,34 +15,38 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                element: <Home />
+                element: <Home />,
             },
             {
                 path: "/restaurant",
-                element: <Restaurant />
+                element: <Restaurant />,
             },
             {
                 path: "/cocktail",
-                element: <Cocktail />
+                element: <Cocktail />,
             },
             {
                 path: "/event",
-                element: <Event />
+                element: <Event />,
             },
             {
                 path: "/about",
-                element: <About />
+                element: <About />,
             },
             {
                 path: "/blogs",
-                element: <Blogs />
+                element: <Blogs />,
             },
             {
                 path: "/contact",
-                element: <Contact />
+                element: <Contact />,
             },
-        ]
-    }
-])
+            {
+                path: "/menu",
+                element: <Menu />,
+            },
+        ],
+    },
+]);
 
 export default router

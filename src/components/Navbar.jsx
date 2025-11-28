@@ -15,41 +15,41 @@ const Navbar = () => {
                 <img src={logo} alt="Bee's Logo" className="h-16 w-16" />
             </div>
             <div className="hidden md:flex gap-6 items-center">
-                <Link to={"/"} className="hover:text-primary px-1 font-semibold">
+                <Link to="/" className="hover:text-primary px-1 font-semibold">
                     Home
                 </Link>
                 <Link
-                    to={"restaurant"}
+                    to="restaurant"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     Restaurant
                 </Link>
                 <Link
-                    to={"cocktail"}
+                    to="cocktail"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     Coktail V
                 </Link>
                 <Link
-                    to={"event"}
+                    to="event"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     Event
                 </Link>
                 <Link
-                    to={"about"}
+                    to="about"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     About
                 </Link>
                 <Link
-                    to={"blogs"}
+                    to="blogs"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     Blogs
                 </Link>
                 <Link
-                    to={"contact"}
+                    to="contact"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     Contact
@@ -66,26 +66,26 @@ const Navbar = () => {
             </div>
             {/*  Mobile Menu  */}
             {isOpen && (
-                <div className="absolute top-full left-0 w-full bg-[#242934]/95 flex flex-col items-center gap-6 py-6 md:hidden shadow-lg z-10 rounded-xl">
-                    <Link to={"/"} className="text-primary hover:text-primary" onClick={closeMenu}>
+                <div className="absolute top-full left-0 w-full bg-primary/95 flex flex-col items-center gap-6 py-6 md:hidden shadow-lg z-10 rounded-xl">
+                    <Link to="/" className="text-primary hover:text-primary" onClick={closeMenu}>
                         Home
                     </Link>
-                    <Link to={"restaurant"} className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="restaurant" className="hover:text-primary" onClick={closeMenu}>
                         Restaurant
                     </Link>
-                    <Link to={"cocktail"} className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="cocktail" className="hover:text-primary" onClick={closeMenu}>
                         Cocktail
                     </Link>
-                    <Link to={"event"} className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="event" className="hover:text-primary" onClick={closeMenu}>
                         Event
                     </Link>
-                    <Link to={"about"} className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="about" className="hover:text-primary" onClick={closeMenu}>
                         About
                     </Link>
-                    <Link to={"blogs"} className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="blogs" className="hover:text-primary" onClick={closeMenu}>
                         Blogs
                     </Link>
-                    <Link to={"contact"} className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="contact" className="hover:text-primary" onClick={closeMenu}>
                         Contact
                     </Link>
                 </div>
