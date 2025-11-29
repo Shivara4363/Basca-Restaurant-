@@ -39,7 +39,7 @@ const HomeEvent = () => {
     ];
 
     return (
-        <div className="py-4">
+        <div className="py-8">
             <h2 className="text-primary font-bold font-heading text-xl text-center">EVENT</h2>
             <h3 className="font-subheading text-lg font-medium py-3 text-center">Where Every Event Finds Its Perfect Setting.</h3>
             <div className="relative px-12 py-8">

@@ -50,6 +50,9 @@ const Footer = () => {
                                         <a href="#testimonials">Why Choose Us</a>
                                     </div>
                                     <div className="flex flex-col gap-2">
+                                        <h2 className="pb-4 text-base md:text-lg font-semibold text-primary">
+                                            UPDATES
+                                        </h2>
                                         <a href="" className="flex items-center gap-4">
                                             {/* <img src={Location} alt="Location icon" /> */}
                                             <span>4-6 North Hill, Colchester, CO1 1DZ</span>

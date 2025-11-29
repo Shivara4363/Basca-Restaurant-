@@ -34,7 +34,7 @@ const Navbar = () => {
                     to="event"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
-                    Event
+                    Events
                 </Link>
                 <Link
                     to="about"
@@ -43,7 +43,7 @@ const Navbar = () => {
                     About
                 </Link>
                 <Link
-                    to="blogs"
+                    to="/"
                     className="border-b-2 px-1 font-semibold border-transparent hover:border-primary transition duration-300"
                 >
                     Blogs
@@ -77,12 +77,12 @@ const Navbar = () => {
                         Cocktail
                     </Link>
                     <Link to="event" className="hover:text-primary" onClick={closeMenu}>
-                        Event
+                        Events
                     </Link>
                     <Link to="about" className="hover:text-primary" onClick={closeMenu}>
                         About
                     </Link>
-                    <Link to="blogs" className="hover:text-primary" onClick={closeMenu}>
+                    <Link to="/" className="hover:text-primary" onClick={closeMenu}>
                         Blogs
                     </Link>
                     <Link to="contact" className="hover:text-primary" onClick={closeMenu}>
